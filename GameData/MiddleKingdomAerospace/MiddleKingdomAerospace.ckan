@@ -6,6 +6,9 @@ $vref: '#/ckan/ksp-avc'
 author:
   - Kari
   - Questin
+install:
+  - find: MiddleKingdomAerospace
+    install_to: GameData
 depends:
   - name: ModuleManager
   - name: CommunityResourcePack
@@ -16,5 +19,11 @@ depends:
 recommends:
   - name: HullcamVDSContinued
   - name: NeptuneCamera
+  - name: KSPCommunityFixes
+suggests:
+  - name: KIUChineseLaunchVehiclePack
+  - name: KIUChineseHumanSpaceflightPack
+  - name: KIUChineseDeepspaceExplorationPack
+  - name: KerwisChinaAerospacePack
   supports:
   - name: RealismOverhaul
