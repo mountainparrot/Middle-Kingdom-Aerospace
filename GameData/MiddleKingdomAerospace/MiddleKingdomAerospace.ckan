@@ -25,5 +25,5 @@ suggests:
   - name: KIUChineseHumanSpaceflightPack
   - name: KIUChineseDeepspaceExplorationPack
   - name: KerwisChinaAerospacePack
-  supports:
+supports:
   - name: RealismOverhaul
